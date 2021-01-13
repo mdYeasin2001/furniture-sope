@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shope</title>
+    <!-- bootstrap css file linked -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- font awesome linked -->
+    <script src="https://kit.fontawesome.com/3027c8d583.js" crossorigin="anonymous"></script>
+    <!-- custom style sheets linked -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <!-- nav -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-md-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">FURNITURE <span class="text-tomato">STORE</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#product">Product</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      More
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#about">About Us</a></li>
+                      <li><a class="dropdown-item" href="#blog">Blogs</a></li>
+                      <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                      <li><a class="dropdown-item" href="#">Terms</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Checkout</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- ./nav -->
+        <!-- carousel -->
+        <section id="home">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item carousel-height active">
+                    <img src="images/slider-image-1-1920x600.jpg" class="d-block w-100 h-100" alt="slider">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4 class="text-tomato">First slide label</h4>
+                      <h1 class="carousel-heading">Nulla vitae elit libero</h1>
+                    </div>
+                  </div>
+                  <div class="carousel-item carousel-height">
+                    <img src="images/slider-image-2-1920x600.jpg" class="d-block w-100 h-100" alt="slider">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4 class="text-tomato">Second slide label</h4>
+                      <h1 class="carousel-heading">Lorem ipsum dolor sit amet</h1>
+                    </div>
+                  </div>
+                  <div class="carousel-item carousel-height">
+                    <img src="images/slider-image-3-1920x600.jpg" class="d-block w-100 h-100" alt="slider">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4 class="text-tomato">Third slide label</h4>
+                      <h1 class="carousel-heading">Praesent commodo cursus magna</h1>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </a>
+              </div>
+        </section>
+        <!-- ./carousel -->
+    </header>
+    <!-- ./header -->
+    <!-- main -->
+    <!-- feature area -->
+    <section class="frature-area my-5">
+        <div class="container">
+            <div class="d-flex justify-content-between border-bottom pb-2">
+                <h2>Featured Products</h2>
+                <button class="btn shop-button">VIEW MORE</button>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="images/product-1-370x270.jpg" class="card-img-top" alt="chair">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h5><small class="text-muted text-decoration-line-through">$999.00 </small>$779.00</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="images/product-2-370x270.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h5><small class="text-muted text-decoration-line-through">$99.00 </small>$79.00</h5>
+                      <p class="card-text">This is a short card.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="images/product-3-370x270.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h5><small class="text-muted text-decoration-line-through">$1999.00 </small>$1779.00</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="images/product-4-370x270.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h5><small class="text-muted text-decoration-line-through">$999.00 </small>$799.00</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="images/product-5-370x270.jpg" class="card-img-top" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h5><small class="text-muted text-decoration-line-through">$1999.00 </small>$1779.00</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="images/product-6-370x270.jpg" class="card-img-top" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h5><small class="text-muted text-decoration-line-through">$999.00 </small>$779.00</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+    </section>
+    <!-- ./freature area -->
+    <!-- about area -->
+    <section class="about-area">
+        <div class="container">
+            <div class="border-bottom pb-2">
+                <h2>About Us</h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <p>Lorem ipsum dolor sit amet, <a class="ancor-link" href="#">consectetur</a> adipisicing elit. Explicabo, esse consequatur alias repellat in excepturi inventore ad <a class="ancor-link" href="#f">asperiores</a> tempora ipsa. Accusantium tenetur voluptate labore aperiam molestiae rerum excepturi minus in pariatur praesentium, corporis, aliquid dicta.</p>
+                    <ul class="px-4">
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Consectetur an adipisicing elit</li>
+                        <li>It aquecorporis nulla aspernatur</li>
+                        <li>Corporis, omnis doloremque</li>
+                    </ul>
+                    <button class="btn btn-danger mt-5">READ MORE</button>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid" src="images/about-1-570x350.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ./about area -->
+    <!-- blog area -->
+    <section id="blog-area" class="my-5 py-5">
+        <div class="container">
+            <div class="d-flex justify-content-between border-bottom pb-2">
+                <h2>Latest blog posts</h2>
+                <button class="btn shop-button">READ MORE</button>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-5 text-center">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="images/blog-1-370x270.jpg" class="card-img-top" alt="">
+                    <div class="card-body p-4">
+                      <h5 class="card-title">Lorem ipsum dolor sit ametered, consectetur adipisicing elit hicter</h5>
+                      <pre>John Doe  |  12/06/2020 10:30  |  114</pre>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="images/blog-2-370x270.jpg" class="card-img-top" alt="">
+                    <div class="card-body p-4">
+                        <h5 class="card-title">Lorem ipsum dolor sit ametered, consectetur adipisicing elit hicter</h5>
+                        <pre>John Doe  |  12/06/2020 10:30  |  114</pre>
+                      </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="images/blog-3-370x270.jpg" class="card-img-top" alt="">
+                    <div class="card-body p-4">
+                        <h5 class="card-title">Lorem ipsum dolor sit ametered, consectetur adipisicing elit hicter</h5>
+                        <pre>John Doe  |  12/06/2020 10:30  |  114</pre>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <!-- ./blog area -->
+    <!-- feedback area -->
+    <section class="my-5">
+        <div class="container">
+            <div class="d-flex justify-content-between border-bottom pb-2">
+                <h2>Happy Clients</h2>
+                <button class="btn shop-button">READ MORE</button>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-5 text-center">
+                <div class="col">
+                  <div class="card h-100">
+                    <i class="fas fa-user client-fas bg-lightgray py-5"></i>
+                    <div class="card-body p-4">
+                      <h5 class="card-title">Lorem ipsum dolor sit ametered, consectetur adipisicing elit hicter</h5>
+                      <pre>John Doe  |  12/06/2020 10:30  |  114</pre>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <i class="fas fa-user client-fas bg-lightgray py-5"></i>
+                    <div class="card-body p-4">
+                        <h5 class="card-title">Lorem ipsum dolor sit ametered, consectetur adipisicing elit hicter</h5>
+                        <pre>John Doe  |  12/06/2020 10:30  |  114</pre>
+                      </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <i class="fas fa-user client-fas bg-lightgray py-5"></i>
+                    <div class="card-body p-4">
+                        <h5 class="card-title">Lorem ipsum dolor sit ametered, consectetur adipisicing elit hicter</h5>
+                        <pre>John Doe  |  12/06/2020 10:30  |  114</pre>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!-- ./feedback area -->
+    <!-- contact area -->
+    <section>
+        <div class="container contact-area d-flex justify-content-between align-items-center p-4 rounded-3">
+            <div>
+                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing.</h5>
+                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis amet elite author nulla.</small>
+            </div>
+            <div>
+                <button class="btn btn-danger">Contact Us</button>
+            </div>
+        </div>
+    </section>
+    <!-- ./contact area -->
+    <!-- ./main -->
+    <!-- footer -->
+    <footer class="container text-center pt-5 pb-3 mt-5">
+        <p>COPYRIGHT © 2020 COMPANY NAME - TEMPLATE BY: <a class="ancor-link" href="#">PHPJABBERS.COM</a></p>
+    </footer>
+    <!-- ./footer -->
+    
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap js file linked -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

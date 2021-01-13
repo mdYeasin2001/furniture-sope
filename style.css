@@ -1,0 +1,36 @@
+.contact-area{
+    height: 150px;
+    background: #d4d4d4;
+}
+.bg-lightgray{
+    background: #dfdede;
+}
+.client-fas{
+    font-size: 100px;
+    color: orangered;
+}
+.text-tomato{
+    color: #f5523c;
+}
+.shop-button{
+    font-weight: bold;
+    font-size: 14px;
+    color: #F33F3F;
+}
+.carousel-heading{
+    color: teal;
+    font-size: 50px;
+}
+#blog-area{
+    background: url(images/other-image-fullscren-1-1920x900.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.ancor-link{
+    color: tomato;
+    text-decoration: none;
+}
+.carousel-height{
+    height: 100vh;
+}
