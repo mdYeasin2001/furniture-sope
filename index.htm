@@ -15,7 +15,7 @@
     <!-- header -->
     <header>
         <!-- nav -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-md-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container">
               <a class="navbar-brand" href="#">FURNITURE <span class="text-tomato">STORE</span></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,8 +60,8 @@
                   <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
-                  <div class="carousel-item carousel-height active">
-                    <img src="images/slider-image-1-1920x600.jpg" class="d-block w-100 h-100" alt="slider">
+                  <div class="carousel-item active">
+                    <img src="images/slider-image-1-1920x600.jpg" class="d-block w-100" alt="slider">
                     <div class="carousel-caption d-none d-md-block">
                       <h4 class="text-tomato">First slide label</h4>
                       <h1 class="carousel-heading">Nulla vitae elit libero</h1>
@@ -97,7 +97,7 @@
     <!-- ./header -->
     <!-- main -->
     <!-- feature area -->
-    <section class="frature-area my-5">
+    <section id="product" class="frature-area my-5">
         <div class="container">
             <div class="d-flex justify-content-between border-bottom pb-2">
                 <h2>Featured Products</h2>
@@ -169,7 +169,7 @@
     </section>
     <!-- ./freature area -->
     <!-- about area -->
-    <section class="about-area">
+    <section id="about" class="about-area">
         <div class="container">
             <div class="border-bottom pb-2">
                 <h2>About Us</h2>
@@ -274,11 +274,11 @@
     <!-- contact area -->
     <section>
         <div class="container contact-area d-flex justify-content-between align-items-center p-4 rounded-3">
-            <div>
+            <div class="">
                 <h5>Lorem ipsum dolor sit amet, consectetur adipisicing.</h5>
                 <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis amet elite author nulla.</small>
             </div>
-            <div>
+            <div class="">
                 <button class="btn btn-danger">Contact Us</button>
             </div>
         </div>
